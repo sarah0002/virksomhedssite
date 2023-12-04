@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 ul#menu {
   list-style: none;
   display: flex;
@@ -21,4 +27,36 @@ ul#menu li a {
   font-weight: bold;
   padding: 10px;
   text-transform: uppercase;
+  color: black;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+#logo_img {
+  width: 20%;
+}
+
+#sog_img {
+  width: 2%;
+}
+
+header .active {
+  background-color: #cfcbe5;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+header li a:hover:not(.active) {
+  background-color: #6354ab;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
 }
