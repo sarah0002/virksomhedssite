@@ -59,10 +59,6 @@ header nav {
   width: 2%;
 }
 
-#forside_img {
-  width: 100%;
-}
-
 header .active {
   background-color: #cfcbe5;
   padding-left: 10px;
@@ -76,9 +72,18 @@ header li a:hover:not(.active) {
   padding-left: 10px;
   border-radius: 5px;
 }
-.grid_1_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding-top: 50px;
+
+footer {
+  padding: 10px;
+  background-color: #cfcbe5;
+  margin: 0;
+}
+
+@media (min-width: 800px) {
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 50px;
+  }
 }
