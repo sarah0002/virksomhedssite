@@ -9,8 +9,23 @@
 .grid_1_1 p,
 li {
   line-height: 30px;
+  padding-top: 10px;
 }
 
 h1 {
   text-align: center;
+}
+
+.grid_1_1 .tekst {
+  padding-left: 70px;
+  padding-right: 30px;
+}
+
+.grid_1_1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+p {
+  line-height: 38px;
 }
