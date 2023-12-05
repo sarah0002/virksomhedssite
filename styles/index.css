@@ -10,10 +10,14 @@ button {
 
 #forside_img {
   width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .grid_1_1 {
   line-height: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .grid_1_1 img {
