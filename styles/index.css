@@ -1,6 +1,24 @@
-#knap_grain {
+button {
   background-color: #cfcbe5;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#forside_img {
+  width: 100%;
+}
+
+.grid_1_1 {
+  line-height: 30px;
+}
+
+.grid_1_1 img {
+  opacity: 40%;
+}
+.grid_1_1 img:hover {
+  opacity: 100%;
 }
