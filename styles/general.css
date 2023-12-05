@@ -12,6 +12,9 @@ img {
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+main {
   padding-left: 5%;
   padding-right: 5%;
 }
