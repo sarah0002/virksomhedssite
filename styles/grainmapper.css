@@ -1,0 +1,6 @@
+.grid_1_1 img {
+  opacity: 40%;
+}
+.grid_1_1 img:hover {
+  opacity: 100%;
+}
