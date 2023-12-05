@@ -1,0 +1,15 @@
+.tekst {
+  line-height: 30px;
+}
+
+.tekst h2,
+h3,
+p {
+  padding-bottom: 10px;
+}
+
+.tekst h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
