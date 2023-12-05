@@ -47,6 +47,10 @@ header nav {
   width: 2%;
 }
 
+#forside_img {
+  width: 100%;
+}
+
 header .active {
   background-color: #cfcbe5;
   padding-left: 10px;
