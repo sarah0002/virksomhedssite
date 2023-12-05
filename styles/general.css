@@ -76,3 +76,9 @@ header li a:hover:not(.active) {
   padding-left: 10px;
   border-radius: 5px;
 }
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 50px;
+}
