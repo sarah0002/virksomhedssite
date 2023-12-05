@@ -26,3 +26,13 @@ button {
 .grid_1_1 img:hover {
   opacity: 100%;
 }
+
+.facadebillede img {
+  opacity: 40%;
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+.facadebillede img:hover {
+  opacity: 100%;
+}
