@@ -89,4 +89,16 @@ footer {
     gap: 20px;
     padding-top: 100px;
   }
+  .grid_2_1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding-top: 100px;
+  }
+  .grid_1_2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding-top: 100px;
+  }
 }
