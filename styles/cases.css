@@ -64,3 +64,9 @@ h3 {
 img {
   padding-bottom: 15px;
 }
+
+.vertical-line {
+  border-left: 2px solid black; /* Du kan justere tykkelsen og farven efter behov */
+  height: 100px; /* Du kan justere højden efter behov */
+  margin: 0 20px;
+}

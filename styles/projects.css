@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  line-height: 38px;
+  padding-bottom: 15px;
+}
+
+hr {
+  display: block;
+  width: 125px;
+  height: 4px;
+  background: #6354ab;
+  margin: 20px 0 25px 0;
+  border: 0;
+}
