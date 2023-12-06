@@ -2,7 +2,8 @@ h1 {
   text-align: center;
 }
 
-p {
+p,
+h4 {
   line-height: 38px;
   padding-bottom: 15px;
 }

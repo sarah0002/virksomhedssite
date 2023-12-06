@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+
+p,
+h4 {
+  line-height: 38px;
+  padding-bottom: 10px;
+}
+
+hr {
+  display: block;
+  width: 125px;
+  height: 4px;
+  background: #6354ab;
+  margin: 20px 0 25px 0;
+  border: 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination .active {
+  background-color: #cfcbe5;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #6354ab;
+  color: white;
+}

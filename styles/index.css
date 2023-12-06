@@ -46,3 +46,9 @@ button:hover {
 .facadebillede img:hover {
   opacity: 100%;
 }
+
+p,
+h4 {
+  line-height: 38px;
+  padding-bottom: 15px;
+}

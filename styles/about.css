@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+
+p,
+h3,
+h4 {
+  line-height: 38px;
+  padding-bottom: 10px;
+}
+
+hr {
+  display: block;
+  width: 125px;
+  height: 4px;
+  background: #6354ab;
+  margin: 20px 0 25px 0;
+  border: 0;
+}
+
+.citat {
+  background: #cfcbe5;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.meet_team {
+  text-align: center;
+  margin: 80px 50px 80px 50px;
+}
+button {
+  background-color: #cfcbe5;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  object-position: 100%;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

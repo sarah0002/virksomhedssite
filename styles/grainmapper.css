@@ -54,7 +54,8 @@ h1 {
   padding-bottom: 40px;
 }
 
-p {
+p,
+h4 {
   line-height: 38px;
   padding-bottom: 15px;
 }

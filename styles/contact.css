@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+p,
+h2,
+h4 {
+  line-height: 38px;
+  padding-bottom: 10px;
+}
+
+hr {
+  display: block;
+  width: 125px;
+  height: 4px;
+  background: #6354ab;
+  margin: 20px 0 25px 0;
+  border: 0;
+}
+
+.lilla_tekst {
+  color: #6354ab;
+}
