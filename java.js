@@ -1,14 +1,20 @@
-function toggleReadMore() {
-  var section = document.getElementById("readMoreSection");
-  var btn = document.getElementById("readMoreBtn");
+let loadMoreBtn = document.querySelector("#load-more");
+let currentItem = 3;
 
-  if (section.classList.contains("expand")) {
-    // Luk sektionen
-    section.classList.remove("expand");
-    btn.classList.remove("expand");
-  } else {
-    // Åbn sektionen
-    section.classList.add("expand");
-    btn.classList.add("expand");
+loadMoreBtn.onclick = () => {
+  console.log("Button clicked"); // Tjek om denne besked vises i konsollen
+
+  let boxes = [
+    ...document.querySelectorAll(".container_team .box-container .box"),
+  ];
+
+  for (let i = currentItem; i < currentItem + 3 && i < boxes.length; i++) {
+    boxes[i].style.display = "inline-block";
   }
-}
+
+  currentItem += 3;
+
+  if (currentItem >= boxes.length) {
+    loadMoreBtn.style.display = "none";
+  }
+};
