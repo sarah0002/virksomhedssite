@@ -83,7 +83,10 @@ footer {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  line-height: -20px;
+}
+
+footer p {
+  line-height: 30px;
 }
 
 .left {
