@@ -1,3 +1,5 @@
+/** @format */
+
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +33,7 @@ ul#menu {
 
 ul#menu li {
   margin-right: 20px;
+  white-space: nowrap;
 }
 
 ul#menu li:last-child {
@@ -74,16 +77,6 @@ header li a:hover:not(.active) {
   padding-right: 10px;
   padding-left: 10px;
   border-radius: 5px;
-}
-
-footer {
-  padding: 10px;
-  background-color: #cfcbe5;
-  margin: 0;
-}
-
-footer p {
-  line-height: 30px;
 }
 
 footer img {
