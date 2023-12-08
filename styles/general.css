@@ -97,6 +97,7 @@ footer img {
   max-width: 62.5rem;
   margin-right: auto;
   margin-left: auto;
+  gap: 100px;
 }
 
 .footer-columns > * {
