@@ -23,18 +23,17 @@ hr {
   color: #6354ab;
 }
 
-.left {
-  padding-left: 200px;
-}
-
 h4 {
   padding-left: 10px;
   padding-bottom: 10px;
 }
 
+iframe {
+  width: 1440px;
+}
+
 .container {
   width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-self: center;
@@ -46,7 +45,13 @@ h4 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
 }
-
+.grid_1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding-bottom: 80px;
+  justify-items: center;
+}
 * {
   transform: all 0.2s linear;
   text-transform: capitalize;
