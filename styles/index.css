@@ -24,10 +24,22 @@ button:hover {
   padding-bottom: 80px;
 }
 
-.grid_1_1 {
+.grid_1_1,
+.grid_1_2 {
   line-height: 30px;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.grid_1_2 p {
+  padding-left: 50px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.grid_1_2 h3 {
+  padding-left: 50px;
+  font-size: 35px;
 }
 
 .grid_1_1 img {
@@ -61,6 +73,9 @@ h2 {
 #baggrundsfarve {
   background-color: #cfcbe5;
   border-radius: 10px;
+}
+#baggrundsfarve p {
+  padding-top: 60px;
 }
 
 @media (min-width: 800px) {
