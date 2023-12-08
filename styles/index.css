@@ -52,3 +52,16 @@ h4 {
   line-height: 38px;
   padding-bottom: 15px;
 }
+
+h2 {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 800px) {
+  .grid_1_1 p,
+  h2 {
+    padding-left: 90px;
+    padding-right: 50px;
+  }
+}

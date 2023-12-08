@@ -21,6 +21,10 @@ main {
   padding-right: 5%;
 }
 
+.footer {
+  background-color: #cfcbe5;
+}
+
 ul#menu {
   list-style: none;
   display: flex;
@@ -79,6 +83,10 @@ header li a:hover:not(.active) {
   border-radius: 5px;
 }
 
+footer {
+  background-color: #cfcbe5;
+}
+
 footer img {
   width: 20%;
 }
@@ -89,6 +97,7 @@ footer img {
   max-width: 62.5rem;
   margin-right: auto;
   margin-left: auto;
+  gap: 100px;
 }
 
 .footer-columns > * {

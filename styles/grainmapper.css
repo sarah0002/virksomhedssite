@@ -26,6 +26,13 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  #omvendt img {
+    order: -2;
+  }
+
+  #omvendt .tekst {
+    order: -1;
+  }
 }
 
 .grid_1_1 img {
