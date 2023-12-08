@@ -13,10 +13,6 @@
     padding-top: 10px;
   }
 
-  h1 {
-    text-align: center;
-  }
-
   .grid_1_1 .tekst {
     padding-left: 70px;
     padding-right: 30px;
@@ -37,6 +33,7 @@
 
 .grid_1_1 img {
   opacity: 40%;
+  padding-bottom: 40px;
 }
 
 .grid_1_1 img:hover {
@@ -51,6 +48,7 @@ li {
 
 h1 {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .grid_1_1 {

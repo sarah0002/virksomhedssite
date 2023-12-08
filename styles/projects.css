@@ -1,5 +1,6 @@
 h1 {
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .grid_1_1 p,
@@ -38,4 +39,8 @@ hr {
 .pagination a:hover:not(.active) {
   background-color: #6354ab;
   color: white;
+}
+
+img {
+  padding-bottom: 20px;
 }
