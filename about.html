@@ -32,10 +32,14 @@
                 <li><a href="news.html">News</a></li>
                 <li><a class="active" href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-
             </ul>
-            <img src="img/sog.webp" id="sog_img" alt="Søg ikon">
-        </nav>
+            <img src="img/sog.webp" id="sog_img" alt="Søg ikon" onclick="toggleSearch()">
+            <div id="searchContainer">
+                <input type="søg" id="searchInput" placeholder="Søg på hjemmesiden">
+                <button onclick="search()">Søg</button>
+            <div id="searchResults"></div>
+        </div>
+    </nav>
     </header>
     <main>
         <h1>About Xnovo</h1>
@@ -132,6 +136,7 @@
             </article>
         </div>
     </footer>
+    <script src="java.js"></script>
 </body>
 
 </html>
