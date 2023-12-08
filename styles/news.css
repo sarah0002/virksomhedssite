@@ -1,11 +1,16 @@
 h1 {
   text-align: center;
+  padding-bottom: 25px;
+}
+
+img {
+  padding-bottom: 80px;
 }
 
 p,
 h4 {
   line-height: 38px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 hr {
