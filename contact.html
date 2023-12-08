@@ -36,7 +36,12 @@
                 <li><a class="active" href="contact.html">Contact</a></li>
 
             </ul>
-            <img src="img/sog.webp" id="sog_img" alt="Søg ikon">
+            <img src="img/sog.webp" id="sog_img" alt="Søg ikon" onclick="toggleSearch()">
+            <div id="searchContainer">
+                <input type="søg" id="searchInput" placeholder="Søg på hjemmesiden">
+                <button onclick="search()">Søg</button>
+            <div id="searchResults"></div>
+        </div>
         </nav>
     </header>
     <main>
@@ -434,11 +439,8 @@
             </article>
 
         </div>
-
-        <script src="java.js"></script>
-
     </footer>
-
+    <script src="java.js"></script>
 </body>
 
 </html>

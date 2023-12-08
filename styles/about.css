@@ -97,6 +97,19 @@ button:hover {
   margin-top: 100px;
 }
 
+.image-container3 {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+.image-container3 img {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+}
+
 #searchContainer {
   display: none;
   position: absolute;
@@ -140,14 +153,4 @@ button:hover {
   padding: 10px;
   border-radius: 4px;
   cursor: pointer;
-}
-
-@media (max-width: 800px) {
-  .vendes_om img {
-    order: 1;
-  }
-
-  .vendes_om tekst {
-    order: 2;
-  }
 }
