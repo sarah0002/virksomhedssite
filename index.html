@@ -37,6 +37,7 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+<<<<<<< HEAD
             <div class="burger-menu">
                 <div class="burger-icon" onclick="toggleMenu()">
                     <div class="bar"></div>
@@ -45,6 +46,14 @@
                 </div>
             </div>
             <img src="img/sog.webp" id="sog_img" alt="Søg ikon" />
+=======
+            <img src="img/sog.webp" id="sog_img" alt="Søg ikon" onclick="toggleSearch()">
+            <div id="searchContainer">
+                <input type="søg" id="searchInput" placeholder="Søg på hjemmesiden">
+                <button onclick="search()">Søg</button>
+            <div id="searchResults"></div>
+        </div>
+>>>>>>> d5236874d428af7376c355b11bb7c3c074ffc2e9
         </nav>
     </header>
     <main>
@@ -71,7 +80,7 @@
         </div>
 
         <div class="grid_1_2" id="baggrundsfarve">
-            <div>
+            <div class="tekst_video">
                 <h3> Who Are We?</h3>
                 <p>Xnovo delivers novel, high-performing, and user-friendly 3D imaging tools for applications within
                     the
@@ -82,7 +91,8 @@
                     Technical University of Denmark (DTU).</p>
             </div>
             <div>
-                <video controls src="http://signeaml.dk/kea/05_indhold/xnovo_short1.mp4">short video</video>
+                <video controls src="http://signeaml.dk/kea/05_indhold/xnovo_long.mp4" class="video">short
+                    video</video>
             </div>
         </div>
 
