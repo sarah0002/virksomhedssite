@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/index.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
@@ -23,19 +24,11 @@
 <body>
     <header>
         <nav>
-            <div class="home-icon">
+            <ul class="navbar">
                 <a href="index.html">
-                    <img src="img/logo.webp" alt="Logo" />
+                    <img src="img/logo.webp" alt="Logo" class="logo">
                 </a>
-            </div>
-
-            <div class="burger-menu">
-                <div class="burger-icon" onclick="toggleMenu()">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                </div>
-                <ul id="menu">
+                <ul class="nav-menu">
                     <li><a href="grainmapper.html">Grainmapper 3D</a></li>
                     <li><a href="cases.html">Cases</a></li>
                     <li><a href="projects.html">Projects</a></li>
@@ -43,9 +36,19 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </div>
-            <img src="img/sog.webp" id="sog_img" alt="Søg ikon" />
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="ikon">
+                    <img src="img/sog.webp" id="sog_img" alt="Søg ikon" />
+                </div>
+            </ul>
+
         </nav>
+
+
     </header>
     <main>
         <img src="img/personalebillede.webp" id="forside_img" alt="forside billede" />

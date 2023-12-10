@@ -13,6 +13,7 @@ img {
 }
 
 body {
+  margin: 0;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -22,178 +23,6 @@ main {
 }
 
 .footer {
-  background-color: #cfcbe5;
-}
-
-.burger-menu {
-  display: flex;
-  align-items: center;
-}
-
-.burger-icon {
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 5px 0;
-}
-
-#menu {
-  list-style: none;
-  display: flex;
-}
-
-#menu li {
-  margin-right: 20px;
-}
-
-#menu a {
-  text-decoration: none;
-  color: #fff;
-}
-
-@media only screen and (max-width: 600px) {
-  #menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #333;
-  }
-
-  #menu.show {
-    display: flex;
-  }
-
-  #menu a {
-    padding: 15px;
-    text-align: center;
-    border-bottom: 1px solid #555;
-  }
-}
-
-.burger-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px;
-}
-
-.burger-icon {
-  cursor: pointer;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #6354ab;
-  margin: 6px 0;
-}
-
-#menu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-#menu li {
-  margin-right: 15px;
-}
-
-#menu a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-@media screen and (max-width: 600px) {
-  #menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-  }
-
-  #menu.show {
-    display: flex;
-  }
-
-  #menu li {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-}
-
-ul#menu {
-  list-style: none;
-  display: flex;
-  padding: 20px;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style: none;
-  font-size: 20px;
-}
-
-ul#menu li {
-  margin-right: 20px;
-  white-space: nowrap;
-  font-size: 16px;
-}
-
-ul#menu li:last-child {
-  margin-right: 0;
-}
-
-ul#menu li a {
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px;
-  text-transform: uppercase;
-  color: black;
-}
-
-header nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px;
-}
-
-.home-icon {
-  width: 20%;
-}
-
-#sog_img {
-  width: 2%;
-}
-
-header .active {
-  background-color: #cfcbe5;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-}
-
-header li a:hover:not(.active) {
-  background-color: #6354ab;
-  padding-right: 10px;
-  padding-left: 10px;
-  border-radius: 5px;
-}
-
-footer {
   background-color: #cfcbe5;
 }
 
@@ -237,7 +66,7 @@ footer img {
   color: #6354ab;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -255,5 +84,104 @@ footer img {
     grid-template-columns: 1fr 2fr;
     gap: 20px;
     padding-top: 100px;
+  }
+
+  .navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+li {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  width: 200px;
+}
+
+.ikon {
+  width: 24px;
+  justify-self: end;
+}
+
+.nav-menu :hover {
+  background-color: #6354ab;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+    gap: 30px;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(13) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #6354ab;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-menu li a {
+    margin: 16px 0;
+  }
+
+  .nav-menu .active {
+    left: 0;
+  }
+
+  .navbar {
+    min-height: 70px;
+    display: grid;
+    grid-template-columns: 6fr 0.5fr 0.75fr;
+    align-items: center;
+    padding: 0 24px;
   }
 }

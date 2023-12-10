@@ -71,23 +71,19 @@ function search() {
   });
 }
 
-//burgermenu
-function toggleMenu() {
-  var menu = document.getElementById("menu");
-  menu.classList.toggle("show");
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburger = document.querySelector(".hamburger");
+  const navMenu = document.querySelector(".nav-menu");
 
-  var burgerMenu = document.querySelector(".burger-menu");
-  var menuItems = document.querySelectorAll("#menu li");
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  });
 
-  if (menu.classList.contains("show")) {
-    // Flyt li-elementer ind i burgermenuen
-    menuItems.forEach(function (item) {
-      burgerMenu.appendChild(item.cloneNode(true));
-    });
-  } else {
-    // Flyt li-elementer tilbage til original position
-    menuItems.forEach(function (item) {
-      document.getElementById("menu").appendChild(item);
-    });
-  }
-}
+  document.querySelectorAll(".nav-menu a").forEach((n) =>
+    n.addEventListener("click", () => {
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("active");
+    })
+  );
+});
