@@ -2,7 +2,8 @@
 
 <!DOCTYPE html>
 <html lang="da">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News side 2</title>
@@ -11,158 +12,154 @@
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/news.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="icon"
-      href="img/favicon_io (4)/favicon.ico"
-      type="image/x-icon"
-    />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="img/favicon_io (4)/favicon.ico" type="image/x-icon" />
+</head>
 
-  <body>
+<body>
     <header>
-      <nav>
-        <div class="home-icon">
-          <a href="index.html">
-            <img src="img/logo.webp" alt="Logo" />
-          </a>
-        </div>
-        <ul id="menu">
-          <li><a href="grainmapper.html">Grainmapper 3D</a></li>
-          <li><a href="cases.html">Cases</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a class="active" href="news.html">News</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <img
-          src="img/sog.webp"
-          id="sog_img"
-          alt="Søg ikon"
-          onclick="toggleSearch()"
-        />
-        <div id="searchContainer">
-          <input type="søg" id="searchInput" placeholder="Søg på hjemmesiden" />
-          <button onclick="search()">Søg</button>
-          <div id="searchResults"></div>
-        </div>
-      </nav>
+        <nav>
+            <ul class="navbar">
+                <a href="index.html">
+                    <img src="img/logo.webp" alt="Logo" class="logo">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="grainmapper.html">Grainmapper 3D</a></li>
+                    <li><a href="cases.html">Cases</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a class="active" href="news.html">News</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="ikon">
+                    <img src="img/sog.webp" id="sog_img" alt="Søg ikon" onclick="toggleSearch()" />
+                </div>
+            </ul>
+            <div id="searchContainer">
+                <input type="søg" id="searchInput" placeholder="Søg på hjemmesiden" />
+                <button onclick="search()">Søg</button>
+                <div id="searchResults"></div>
+            </div>
+
+        </nav>
+
+
     </header>
 
     <main>
-      <h1>News from Xnovo</h1>
-      <div class="grid_1_1">
-        <div class="tekst">
-          <h2>Welcome to Simone Ferstl</h2>
-          <p>August 24. 2023</p>
-          <hr />
-          <p>
-            We welcome Simone Ferstl in the role of Product Manager and
-            Scientist to the Xnovo team.
-          </p>
-          <p>
-            Simone holds a PhD in Physics from the Technical University of
-            Munich. Her work revolved around the advancement of an in-house
-            developed 3D X-ray microscope which she used to explore applications
-            in the field of pathology and zoology. In her previous position as a
-            Product Manager Innovations, she designed new concepts and led the
-            development of products in the field of biometric identification.
-          </p>
+        <h1>News from Xnovo</h1>
+        <div class="grid_1_1">
+            <div class="tekst">
+                <h2>Welcome to Simone Ferstl</h2>
+                <p>August 24. 2023</p>
+                <hr />
+                <p>
+                    We welcome Simone Ferstl in the role of Product Manager and
+                    Scientist to the Xnovo team.
+                </p>
+                <p>
+                    Simone holds a PhD in Physics from the Technical University of
+                    Munich. Her work revolved around the advancement of an in-house
+                    developed 3D X-ray microscope which she used to explore applications
+                    in the field of pathology and zoology. In her previous position as a
+                    Product Manager Innovations, she designed new concepts and led the
+                    development of products in the field of biometric identification.
+                </p>
+            </div>
+            <div>
+                <img src="img/Simone_news.webp" alt="Billede af Simone" />
+            </div>
         </div>
-        <div>
-          <img src="img/Simone_news.webp" alt="Billede af Simone" />
-        </div>
-      </div>
 
-      <div class="grid_1_1">
-        <div class="tekst">
-          <h2>Xnovo PhD prize awarded at Danscatt 2023</h2>
-          <p>June 02. 2023</p>
-          <hr />
-          <p>
-            The prize for this year’s best Danscatt PhD thesis was awarded to
-            Michael Korning Sørenser for his thesis, Morphology of organic solar
-            cell materials – studied with X-ray scattering techniques, conducted
-            at the Department of Energy, Technical University of Denmark under
-            the supervision of Professor Jens Wenzel Andreasen.
-          </p>
+        <div class="grid_1_1">
+            <div class="tekst">
+                <h2>Xnovo PhD prize awarded at Danscatt 2023</h2>
+                <p>June 02. 2023</p>
+                <hr />
+                <p>
+                    The prize for this year’s best Danscatt PhD thesis was awarded to
+                    Michael Korning Sørenser for his thesis, Morphology of organic solar
+                    cell materials – studied with X-ray scattering techniques, conducted
+                    at the Department of Energy, Technical University of Denmark under
+                    the supervision of Professor Jens Wenzel Andreasen.
+                </p>
+            </div>
+            <div>
+                <img src="img/Danscatt_2023.webp" alt="Billede af Danscatt" />
+            </div>
         </div>
-        <div>
-          <img src="img/Danscatt_2023.webp" alt="Billede af Danscatt" />
+        <div class="grid_1_1">
+            <div class="tekst">
+                <h2>Welcome to Asbjørn Rasmussen</h2>
+                <p>May 16. 2023</p>
+                <hr />
+                <p>
+                    It is a pleasure to welcome Asbjørn Rasmussen to the Xnovo team as
+                    our new scientist.
+                </p>
+                <p>
+                    Asbjørn holds a PhD in computational quantum physics from the
+                    Technical University of Denmark where he investigated novel ways to
+                    calculate electronic correlation effects and studied low-dimensional
+                    materials. He has also worked in industry as an R&D engineer on
+                    real-time 3D reconstruction and has experience in developing
+                    production-grade analysis software.
+                </p>
+            </div>
+            <div>
+                <img src="img/asbjorn_news.webp" alt="Billede af Asbjørn" />
+            </div>
         </div>
-      </div>
-      <div class="grid_1_1">
-        <div class="tekst">
-          <h2>Welcome to Asbjørn Rasmussen</h2>
-          <p>May 16. 2023</p>
-          <hr />
-          <p>
-            It is a pleasure to welcome Asbjørn Rasmussen to the Xnovo team as
-            our new scientist.
-          </p>
-          <p>
-            Asbjørn holds a PhD in computational quantum physics from the
-            Technical University of Denmark where he investigated novel ways to
-            calculate electronic correlation effects and studied low-dimensional
-            materials. He has also worked in industry as an R&D engineer on
-            real-time 3D reconstruction and has experience in developing
-            production-grade analysis software.
-          </p>
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="news.html">1</a>
+            <a href="news_2.html" class="active">2</a>
+            <a href="#">&raquo;</a>
         </div>
-        <div>
-          <img src="img/asbjorn_news.webp" alt="Billede af Asbjørn" />
-        </div>
-      </div>
-      <div class="pagination">
-        <a href="#">&laquo;</a>
-        <a href="news.html">1</a>
-        <a href="news_2.html" class="active">2</a>
-        <a href="#">&raquo;</a>
-      </div>
     </main>
     <footer>
-      <div class="row footer-columns">
-        <article>
-          <h3 class="footer-column_title">Xnovo Technology ApS</h3>
-          <img src="img/eu_small.webp" alt="billede af eu-flag" />
-          <p>
-            Grant receipients of EU's Horizon 2020 Research and Innovation
-            programme
-          </p>
-        </article>
-        <article>
-          <h3 class="footer-column_title">CATEGORIES</h3>
-          <ul class="footer-column_list">
-            <li><a href="grainmapper.html">Grainmapper</a></li>
-            <li><a href="cases.html">Cases</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </article>
-        <article>
-          <h3 class="footer-column_title">PRACTICAL INFO</h3>
-          <ul class="footer-column_list">
-            <li>Galoche Allé 15, 1.</li>
-            <li>4600 Køge</li>
-            <li>Denmark (DK)</li>
-            <li>Front desk: +45 53 73 85 80</li>
-            <li>CVR: 34894221</li>
-            <li>info@xnovotech.com</li>
-          </ul>
-        </article>
-      </div>
+        <div class="row footer-columns">
+            <article>
+                <h3 class="footer-column_title">Xnovo Technology ApS</h3>
+                <img src="img/eu_small.webp" alt="billede af eu-flag" />
+                <p>
+                    Grant receipients of EU's Horizon 2020 Research and Innovation
+                    programme
+                </p>
+            </article>
+            <article>
+                <h3 class="footer-column_title">CATEGORIES</h3>
+                <ul class="footer-column_list">
+                    <li><a href="grainmapper.html">Grainmapper</a></li>
+                    <li><a href="cases.html">Cases</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </article>
+            <article>
+                <h3 class="footer-column_title">PRACTICAL INFO</h3>
+                <ul class="footer-column_list">
+                    <li>Galoche Allé 15, 1.</li>
+                    <li>4600 Køge</li>
+                    <li>Denmark (DK)</li>
+                    <li>Front desk: +45 53 73 85 80</li>
+                    <li>CVR: 34894221</li>
+                    <li>info@xnovotech.com</li>
+                </ul>
+            </article>
+        </div>
     </footer>
     <script src="java.js"></script>
-  </body>
+</body>
+
 </html>

@@ -22,27 +22,36 @@
 <body>
     <header>
         <nav>
-            <div class="home-icon">
+            <ul class="navbar">
                 <a href="index.html">
-                    <img src="img/logo.webp" alt="Logo">
+                    <img src="img/logo.webp" alt="Logo" class="logo">
                 </a>
-            </div>
-            <ul id="menu">
-                <li><a href="grainmapper.html">Grainmapper 3D</a></li>
-                <li><a href="cases.html">Cases</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
-
+                <ul class="nav-menu">
+                    <li><a href="grainmapper.html">Grainmapper 3D</a></li>
+                    <li><a href="cases.html">Cases</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="ikon">
+                    <img src="img/sog.webp" id="sog_img" alt="Søg ikon" onclick="toggleSearch()" />
+                </div>
             </ul>
-            <img src="img/sog.webp" id="sog_img" alt="Søg ikon" onclick="toggleSearch()">
             <div id="searchContainer">
-                <input type="søg" id="searchInput" placeholder="Søg på hjemmesiden">
+                <input type="søg" id="searchInput" placeholder="Søg på hjemmesiden" />
                 <button onclick="search()">Søg</button>
                 <div id="searchResults"></div>
             </div>
+
         </nav>
+
+
     </header>
     <main>
         <h1>Meet us</h1>

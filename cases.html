@@ -2,7 +2,8 @@
 
 <!DOCTYPE html>
 <html lang="da">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cases</title>
@@ -11,243 +12,239 @@
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/cases.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="icon"
-      href="img/favicon_io (4)/favicon.ico"
-      type="image/x-icon"
-    />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="img/favicon_io (4)/favicon.ico" type="image/x-icon" />
+</head>
 
-  <body>
+<body>
     <header>
-      <nav>
-        <div class="home-icon">
-          <a href="index.html">
-            <img src="img/logo.webp" alt="Logo" />
-          </a>
-        </div>
-        <ul id="menu">
-          <li><a href="grainmapper.html">Grainmapper 3D</a></li>
-          <li><a href="about.html">Cases</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a class="active" href="cases.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <img
-          src="img/sog.webp"
-          id="sog_img"
-          alt="Søg ikon"
-          onclick="toggleSearch()"
-        />
-        <div id="searchContainer">
-          <input type="søg" id="searchInput" placeholder="Søg på hjemmesiden" />
-          <button onclick="search()">Søg</button>
-          <div id="searchResults"></div>
-        </div>
-      </nav>
+        <nav>
+            <ul class="navbar">
+                <a href="index.html">
+                    <img src="img/logo.webp" alt="Logo" class="logo">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="grainmapper.html">Grainmapper 3D</a></li>
+                    <li><a class="active" href="cases.html">Cases</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="ikon">
+                    <img src="img/sog.webp" id="sog_img" alt="Søg ikon" onclick="toggleSearch()" />
+                </div>
+            </ul>
+            <div id="searchContainer">
+                <input type="søg" id="searchInput" placeholder="Søg på hjemmesiden" />
+                <button onclick="search()">Søg</button>
+                <div id="searchResults"></div>
+            </div>
+
+        </nav>
+
+
     </header>
     <main>
-      <h1>Cases</h1>
-      <div class="grid_1_2">
-        <div>
-          <img src="img/Dorte.webp" alt="billede af Dorthe" />
+        <h1>Cases</h1>
+        <div class="grid_1_2">
+            <div>
+                <img src="img/Dorte.webp" alt="billede af Dorthe" />
+            </div>
+            <div class="tekst">
+                <h2>Metal failure and microstructure</h2>
+                <h3>
+                    By Dorte Juul Jensen, Professor at Department of Wind Energy,
+                    Technical University of Denmark (DTU)
+                </h3>
+                <p>
+                    “The LabDCT module on our ZEISS Xradia 520 Versa 3D X-ray microscope
+                    with its GrainMapper3D software is a huge progress and very
+                    important for us at the Technical University of Denmark in mapping
+                    the microstructure of materials. Using this new tool we now have the
+                    ability to see the development in how metals crack when exposed to
+                    heat or mechanical loading and relate the observed failure modes to
+                    the surrounding grain structure. This information is crucial for our
+                    research.
+                </p>
+                <h3>A lot of tests – whenever we want</h3>
+                <p>
+                    Another aspect is the possibility to perform a lot of tests whenever
+                    we want. Often you need to do hundreds of tests and then it is
+                    important to have the microscope nearby.
+                </p>
+                <p>
+                    The alternative would be the large-scale synchrotron research
+                    facilities, but they are very difficult to book, requires
+                    substantial more preparation, and do generally only provide beam
+                    time for high-profile scientific breakthrough studies, whereas other
+                    important, but more technical oriented studies like e.g. parameter
+                    optimization etc. finds it harder to be granted beam time.
+                </p>
+                <p>
+                    As a scientist, I am happy to see a company like Xnovo Technology
+                    spread this technology around the world, so the level of materials
+                    science can be improved much faster.”
+                </p>
+                <hr />
+            </div>
         </div>
-        <div class="tekst">
-          <h2>Metal failure and microstructure</h2>
-          <h3>
-            By Dorte Juul Jensen, Professor at Department of Wind Energy,
-            Technical University of Denmark (DTU)
-          </h3>
-          <p>
-            “The LabDCT module on our ZEISS Xradia 520 Versa 3D X-ray microscope
-            with its GrainMapper3D software is a huge progress and very
-            important for us at the Technical University of Denmark in mapping
-            the microstructure of materials. Using this new tool we now have the
-            ability to see the development in how metals crack when exposed to
-            heat or mechanical loading and relate the observed failure modes to
-            the surrounding grain structure. This information is crucial for our
-            research.
-          </p>
-          <h3>A lot of tests – whenever we want</h3>
-          <p>
-            Another aspect is the possibility to perform a lot of tests whenever
-            we want. Often you need to do hundreds of tests and then it is
-            important to have the microscope nearby.
-          </p>
-          <p>
-            The alternative would be the large-scale synchrotron research
-            facilities, but they are very difficult to book, requires
-            substantial more preparation, and do generally only provide beam
-            time for high-profile scientific breakthrough studies, whereas other
-            important, but more technical oriented studies like e.g. parameter
-            optimization etc. finds it harder to be granted beam time.
-          </p>
-          <p>
-            As a scientist, I am happy to see a company like Xnovo Technology
-            spread this technology around the world, so the level of materials
-            science can be improved much faster.”
-          </p>
-          <hr />
-        </div>
-      </div>
 
-      <div class="grid_2_1">
-        <div class="tekst">
-          <h2>Visualizing materials interfaces in 3D</h2>
-          <h3>
-            By Ashwin J. Shahani, Assistant Professor at the University of
-            Michigan.
-          </h3>
-          <p>
-            “Having the LabDCT is quite instrumental for my group, because we
-            can verify the theories and simulations of grain boundary structure
-            and motion with very high precision. It allows us to perform in situ
-            tests such as annealing to see how the polycrystalline material
-            evolves in time, without having to repeatedly destroy the sample. In
-            addition to grain structure, we can capture the locations of
-            second-phase particles (such as impurities) on the same device, and
-            on a large variety of materials.”
-          </p>
-          <h3>LabDCT is suited for a diverse array of materials</h3>
-          <p>
-            “Our group is interested in a number of problems that can be
-            immediately addressed using the LabDCT on campus: For one, we seek
-            to uncover the complex network of interfaces and particles in
-            semiconductors, which is critical for their performance in
-            commercial applications, e.g., solar cells. Our work with
-            polycrystalline silicon has addressed this issue. A second interest
-            is to understand how aluminum-based alloys evolve under the
-            application of heat. In certain scenarios, one grain in the
-            polycrystal may catastrophically “eat up” its neighbors, thereby
-            leading to materials failure. In both projects, the fundamental
-            question is, what do the interfaces look like in 3D and based on the
-            network of the interfaces, what does this means for performance?
-            Other groups on campus are also quite interested in the capabilities
-            of LabDCT, and particularly for battery materials. There is interest
-            over a wide variety of applications that underlines the power and
-            compatibility of LabDCT for different experiments.”
-          </p>
-          <h3>GrainMapper3D version 2.0 works very well</h3>
-          <p>
-            “We have done a lot of benchmarking tests on the GrainMapper3D
-            version 2.0 and it works well for us. We have now determined what
-            samples are best for the equipment and the ensuing reconstruction,
-            preparing for very long in situ experiments to study interfacial
-            evolution as a function of time in repeated anneal cycles. When I
-            first started at Michigan, we used to do all our experiments at the
-            synchrotron user facility and come back with loads of data. The
-            LabDCT is right here, accessible, within reach, providing data
-            around the clock. For us that is a major benefit. Even if we need
-            the synchrotron for ultrafast experiments, we use the LabDCT for
-            trial runs to precheck the microstructure of our samples and
-            determine if they are suitable for the synchrotron experiments.”
-          </p>
-          <h3>The extra push</h3>
-          <p>
-            “Xnovo have always been very helpful debugging the reconstructions,
-            whenever we needed the extra push. It’s always great to collaborate
-            with them and really adopt the LabDCT technique here on campus. We
-            extend our thanks to Erik, Nicolas, Jun, and the rest of the
-            scientists at Xnovo.”
-          </p>
+        <div class="grid_2_1">
+            <div class="tekst">
+                <h2>Visualizing materials interfaces in 3D</h2>
+                <h3>
+                    By Ashwin J. Shahani, Assistant Professor at the University of
+                    Michigan.
+                </h3>
+                <p>
+                    “Having the LabDCT is quite instrumental for my group, because we
+                    can verify the theories and simulations of grain boundary structure
+                    and motion with very high precision. It allows us to perform in situ
+                    tests such as annealing to see how the polycrystalline material
+                    evolves in time, without having to repeatedly destroy the sample. In
+                    addition to grain structure, we can capture the locations of
+                    second-phase particles (such as impurities) on the same device, and
+                    on a large variety of materials.”
+                </p>
+                <h3>LabDCT is suited for a diverse array of materials</h3>
+                <p>
+                    “Our group is interested in a number of problems that can be
+                    immediately addressed using the LabDCT on campus: For one, we seek
+                    to uncover the complex network of interfaces and particles in
+                    semiconductors, which is critical for their performance in
+                    commercial applications, e.g., solar cells. Our work with
+                    polycrystalline silicon has addressed this issue. A second interest
+                    is to understand how aluminum-based alloys evolve under the
+                    application of heat. In certain scenarios, one grain in the
+                    polycrystal may catastrophically “eat up” its neighbors, thereby
+                    leading to materials failure. In both projects, the fundamental
+                    question is, what do the interfaces look like in 3D and based on the
+                    network of the interfaces, what does this means for performance?
+                    Other groups on campus are also quite interested in the capabilities
+                    of LabDCT, and particularly for battery materials. There is interest
+                    over a wide variety of applications that underlines the power and
+                    compatibility of LabDCT for different experiments.”
+                </p>
+                <h3>GrainMapper3D version 2.0 works very well</h3>
+                <p>
+                    “We have done a lot of benchmarking tests on the GrainMapper3D
+                    version 2.0 and it works well for us. We have now determined what
+                    samples are best for the equipment and the ensuing reconstruction,
+                    preparing for very long in situ experiments to study interfacial
+                    evolution as a function of time in repeated anneal cycles. When I
+                    first started at Michigan, we used to do all our experiments at the
+                    synchrotron user facility and come back with loads of data. The
+                    LabDCT is right here, accessible, within reach, providing data
+                    around the clock. For us that is a major benefit. Even if we need
+                    the synchrotron for ultrafast experiments, we use the LabDCT for
+                    trial runs to precheck the microstructure of our samples and
+                    determine if they are suitable for the synchrotron experiments.”
+                </p>
+                <h3>The extra push</h3>
+                <p>
+                    “Xnovo have always been very helpful debugging the reconstructions,
+                    whenever we needed the extra push. It’s always great to collaborate
+                    with them and really adopt the LabDCT technique here on campus. We
+                    extend our thanks to Erik, Nicolas, Jun, and the rest of the
+                    scientists at Xnovo.”
+                </p>
+            </div>
+            <div>
+                <img src="img/Ashwin.webp" alt="billede af Ashwin" />
+            </div>
+            <hr />
         </div>
-        <div>
-          <img src="img/Ashwin.webp" alt="billede af Ashwin" />
+        <div class="grid_1_2">
+            <div>
+                <img src="img/Stephen.webp" alt="billede af Stephen" />
+            </div>
+            <div class="tekst">
+                <h2>Deformation and granular mechanics</h2>
+                <h3>
+                    By Stephen Hall, Senior Lecturer at Department of Solid Mechanics,
+                    Lund University.
+                </h3>
+                <p>
+                    Stephen has worked for over ten years with synchrotron research, and
+                    he was introduced to GrainMapper3D on LabDCT in 2017. “You can go to
+                    the synchrotron a couple of times a year and do experiments with one
+                    or two samples, which is not enough for scientific analysis – you
+                    just have to hope for the best. With the LabDCT we’re able to do a
+                    campaign and really investigate material behavior, different types
+                    of loading, and many other things. At our lab we want to see how far
+                    we can push the LabDCT to measure the deformation of materials –
+                    this is an open question for the moment.
+                </p>
+                <p>I’m using the LabDCT for two main areas:</p>
+                <ul>
+                    <li>
+                        Recrystallization and deformation of metallic materials, such as
+                        steel (for structural applications) and aluminum (e.g. foils and
+                        packaging)
+                    </li>
+                    <li>
+                        Granular mechanics, e.g. understanding force transmission and
+                        failure in granular materials. This is something I’ve done a lot
+                        on the synchrotron. Transfer this to a lab, and it will make a
+                        massive difference.”
+                    </li>
+                </ul>
+                <h3>Easy to use and provides us with tons of data</h3>
+                <p>
+                    “So far the GrainMapper3D software essentially is very easy to use,
+                    and very straightforward. I’m surprised how easy it is to run the
+                    analysis. It’s organized in a very simple way with a limited number
+                    of steps required to get results, and it provides us with tons of
+                    data. I’m looking forward to the version 2.0, because it has a lot
+                    of the add-ons, which we would like to employ.”
+                </p>
+            </div>
         </div>
-        <hr />
-      </div>
-      <div class="grid_1_2">
-        <div>
-          <img src="img/Stephen.webp" alt="billede af Stephen" />
-        </div>
-        <div class="tekst">
-          <h2>Deformation and granular mechanics</h2>
-          <h3>
-            By Stephen Hall, Senior Lecturer at Department of Solid Mechanics,
-            Lund University.
-          </h3>
-          <p>
-            Stephen has worked for over ten years with synchrotron research, and
-            he was introduced to GrainMapper3D on LabDCT in 2017. “You can go to
-            the synchrotron a couple of times a year and do experiments with one
-            or two samples, which is not enough for scientific analysis – you
-            just have to hope for the best. With the LabDCT we’re able to do a
-            campaign and really investigate material behavior, different types
-            of loading, and many other things. At our lab we want to see how far
-            we can push the LabDCT to measure the deformation of materials –
-            this is an open question for the moment.
-          </p>
-          <p>I’m using the LabDCT for two main areas:</p>
-          <ul>
-            <li>
-              Recrystallization and deformation of metallic materials, such as
-              steel (for structural applications) and aluminum (e.g. foils and
-              packaging)
-            </li>
-            <li>
-              Granular mechanics, e.g. understanding force transmission and
-              failure in granular materials. This is something I’ve done a lot
-              on the synchrotron. Transfer this to a lab, and it will make a
-              massive difference.”
-            </li>
-          </ul>
-          <h3>Easy to use and provides us with tons of data</h3>
-          <p>
-            “So far the GrainMapper3D software essentially is very easy to use,
-            and very straightforward. I’m surprised how easy it is to run the
-            analysis. It’s organized in a very simple way with a limited number
-            of steps required to get results, and it provides us with tons of
-            data. I’m looking forward to the version 2.0, because it has a lot
-            of the add-ons, which we would like to employ.”
-          </p>
-        </div>
-      </div>
     </main>
     <footer>
-      <div class="row footer-columns">
-        <article>
-          <h3 class="footer-column_title">Xnovo Technology ApS</h3>
-          <img src="img/eu_small.webp" alt="billede af eu-flag" />
-          <p>
-            Grant receipients of EU's Horizon 2020 Research and Innovation
-            programme
-          </p>
-        </article>
-        <article>
-          <h3 class="footer-column_title">CATEGORIES</h3>
-          <ul class="footer-column_list">
-            <li><a href="grainmapper.html">Grainmapper</a></li>
-            <li><a href="cases.html">Cases</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </article>
-        <article>
-          <h3 class="footer-column_title">PRACTICAL INFO</h3>
-          <ul class="footer-column_list">
-            <li>Galoche Allé 15, 1.</li>
-            <li>4600 Køge</li>
-            <li>Denmark (DK)</li>
-            <li>Front desk: +45 53 73 85 80</li>
-            <li>CVR: 34894221</li>
-            <li>info@xnovotech.com</li>
-          </ul>
-        </article>
-      </div>
+        <div class="row footer-columns">
+            <article>
+                <h3 class="footer-column_title">Xnovo Technology ApS</h3>
+                <img src="img/eu_small.webp" alt="billede af eu-flag" />
+                <p>
+                    Grant receipients of EU's Horizon 2020 Research and Innovation
+                    programme
+                </p>
+            </article>
+            <article>
+                <h3 class="footer-column_title">CATEGORIES</h3>
+                <ul class="footer-column_list">
+                    <li><a href="grainmapper.html">Grainmapper</a></li>
+                    <li><a href="cases.html">Cases</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </article>
+            <article>
+                <h3 class="footer-column_title">PRACTICAL INFO</h3>
+                <ul class="footer-column_list">
+                    <li>Galoche Allé 15, 1.</li>
+                    <li>4600 Køge</li>
+                    <li>Denmark (DK)</li>
+                    <li>Front desk: +45 53 73 85 80</li>
+                    <li>CVR: 34894221</li>
+                    <li>info@xnovotech.com</li>
+                </ul>
+            </article>
+        </div>
     </footer>
     <script src="java.js"></script>
-  </body>
+</body>
+
 </html>
