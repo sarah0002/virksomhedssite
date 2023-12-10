@@ -37,9 +37,9 @@
             <div id="searchContainer">
                 <input type="søg" id="searchInput" placeholder="Søg på hjemmesiden">
                 <button onclick="search()">Søg</button>
-            <div id="searchResults"></div>
-        </div>
-    </nav>
+                <div id="searchResults"></div>
+            </div>
+        </nav>
     </header>
     <main>
         <h1>About Xnovo</h1>
@@ -65,11 +65,20 @@
                 Lauridsen.</p>
         </div>
 
-        <div class="grid_1_3">
-            <div class="image-container3">
-                <img src="img/about_xnovo.webp" alt="billede">
+        <div class="grid_1_2" id="videoes">
+            <div>
+                <h2>Get to know us</h2>
+                <video controls src="http://signeaml.dk/kea/05_indhold/xnovo_short1.mp4" class="short_video"></video>
             </div>
             <div>
+                <h2>Get to know us even more</h2>
+                <video controls src="http://signeaml.dk/kea/05_indhold/xnovo_long.mp4" class="long_video"></video>
+            </div>
+        </div>
+
+        <div class="grid_2_1">
+
+            <div class="tekst">
                 <h2>From university research to commercial company</h2>
                 <hr>
                 <p>The transition from university research into a commercial company was supported by the tech oriented
@@ -78,13 +87,16 @@
                     X-ray Microscopy Inc. The 3D crystallographic imaging solution GrainMapper3D™ was made available as
                     part of the LabDCT™ module on the ZEISS Xradia 520 Versa X-ray Microscope mid-2015.</p>
             </div>
+            <div class="image-container3">
+                <img src="img/about_xnovo.webp" alt="billede">
+            </div>
         </div>
 
-        <div class="grid_1_2">
+        <div class="grid_1_2" id="vendes_om">
             <div class="image-container2">
                 <img src="img/phdpris.webp" alt="billede">
             </div>
-            <div>
+            <div">
                 <h2>Close ties to academia</h2>
                 <hr>
                 <p>Through close collaborations with leading research institutions, Xnovo seeks to bring
@@ -95,7 +107,7 @@
                     the future. We are happy to co-supervise students at all levels, and as a special initiative aimed
                     at encouraging excellent young researchers to pursue a career in X-ray science, Xnovo supports the
                     annual Danscatt PhD award.</p>
-            </div>
+        </div>
         </div>
         <div class="meet_team">
             <h3>Meet the talented and dedicated members of our team who bring a diverse range of skills and expertise to

@@ -4,6 +4,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  padding-top: 10px;
+}
+
 p,
 h3,
 h4 {
@@ -53,6 +57,29 @@ button:hover {
   align-content: center;
 }
 
+.short_video {
+  height: 400px;
+  width: 400px;
+  padding-top: 10px;
+}
+
+.long_video {
+  height: 400px;
+  width: auto;
+  padding-top: 10px;
+}
+
+#videoes {
+  justify-items: center;
+}
+
+@media (max-width: 800px) {
+  .long_video {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .image-container img {
   max-width: 100%;
   height: auto;
@@ -75,19 +102,6 @@ button:hover {
   margin-top: 30px;
 }
 
-.image-container2 {
-  width: 100%;
-  display: flex;
-  gap: 10px;
-  margin-right: 50px;
-}
-
-.image-container2 img {
-  max-width: 100%;
-  height: auto;
-  width: 400px;
-}
-
 .grid_1_3 {
   display: flex;
   flex-direction: row-reverse;
@@ -107,4 +121,49 @@ button:hover {
   max-width: 100%;
   height: auto;
   width: 400px;
+}
+
+#searchContainer {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#searchContainer.active {
+  display: block;
+}
+
+.scearch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#searchInput {
+  width: 150px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+#searchInput:focus {
+  outline: none;
+  border-color: #6354ab;
+}
+
+#searchButton {
+  background-color: #6354ab;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
 }
