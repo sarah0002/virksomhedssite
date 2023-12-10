@@ -75,7 +75,7 @@ button:hover {
 
 @media (max-width: 800px) {
   .long_video {
-    width: 100%; /* Ændret til 100% bredde på mindre skærme */
+    width: 100%;
     height: auto;
   }
 }
