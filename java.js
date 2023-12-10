@@ -72,8 +72,22 @@ function search() {
 }
 
 //burgermenu
-
 function toggleMenu() {
   var menu = document.getElementById("menu");
   menu.classList.toggle("show");
+
+  var burgerMenu = document.querySelector(".burger-menu");
+  var menuItems = document.querySelectorAll("#menu li");
+
+  if (menu.classList.contains("show")) {
+    // Flyt li-elementer ind i burgermenuen
+    menuItems.forEach(function (item) {
+      burgerMenu.appendChild(item.cloneNode(true));
+    });
+  } else {
+    // Flyt li-elementer tilbage til original position
+    menuItems.forEach(function (item) {
+      document.getElementById("menu").appendChild(item);
+    });
+  }
 }
