@@ -4,6 +4,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  padding-top: 10px;
+}
+
 p,
 h3,
 h4 {
@@ -56,15 +60,24 @@ button:hover {
 .short_video {
   height: 400px;
   width: 400px;
+  padding-top: 10px;
 }
 
 .long_video {
   height: 400px;
   width: auto;
+  padding-top: 10px;
 }
 
 #videoes {
   justify-items: center;
+}
+
+@media (max-width: 800px) {
+  .long_video {
+    width: 100%; /* Ændret til 100% bredde på mindre skærme */
+    height: auto;
+  }
 }
 
 .image-container img {
