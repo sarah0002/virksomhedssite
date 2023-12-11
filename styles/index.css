@@ -53,9 +53,11 @@ button:hover {
 }
 
 .grid_1_1 p,
-h4 {
+h2 {
   line-height: 38px;
   padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 video {
