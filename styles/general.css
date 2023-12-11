@@ -54,7 +54,7 @@ footer img {
 }
 
 .footer-column_list a:hover {
-  color: #cfcbe5;
+  color: #6354ab;
   padding: 10px;
   border-radius: 10px;
 }
@@ -136,7 +136,7 @@ a {
 }
 
 .eu_img {
-  padding: 5px;
+  padding: 5px 5px 5px 0;
 }
 
 .nav-menu :hover {
@@ -218,7 +218,7 @@ a {
   .grid_footer {
     display: grid;
     grid-template-rows: 0.5fr 1fr 1fr;
-    gap: 20px;
+    gap: 40px;
     padding: 30px;
   }
 }
