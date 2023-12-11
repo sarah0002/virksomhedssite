@@ -38,7 +38,10 @@ hr {
   margin: 80px 50px 80px 50px;
 }
 .knap {
-  justify-self: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -48,7 +51,6 @@ hr {
   color: white;
   border: none;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -56,12 +58,7 @@ hr {
   display: inline-block;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
-  object-position: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
   margin-bottom: 50px;
-
   border-radius: 5px;
 }
 
