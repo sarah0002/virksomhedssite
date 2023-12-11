@@ -105,15 +105,19 @@ iframe {
   padding: 15px 30px;
   border: solid 1px;
   background-color: #6354ab;
-  color: aliceblue;
+  color: white;
   cursor: pointer;
   margin-top: 40px;
   margin-bottom: 40px;
   border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 #load-more:hover {
-  background-color: aliceblue;
+  background-color: #cfcbe5;
   color: #6354ab;
 }
 
