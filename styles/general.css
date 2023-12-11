@@ -136,7 +136,7 @@ a {
 }
 
 .eu_img {
-  padding: 5px;
+  padding: 5px 5px 5px 0;
 }
 
 .nav-menu :hover {
