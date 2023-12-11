@@ -169,6 +169,11 @@ a {
     text-align: center;
     transition: 0.3s;
   }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
   .nav-menu li a {
     margin: 16px 0;
   }
