@@ -16,7 +16,7 @@ h2 {
 
 p {
   line-height: 38px;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
 }
 
 hr {
@@ -121,6 +121,8 @@ iframe {
 #load-more:hover {
   background-color: #cfcbe5;
   color: #6354ab;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container_team_2 {
