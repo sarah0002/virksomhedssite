@@ -23,42 +23,6 @@ if (loadMoreBtn !== null) {
   };
 }
 
-// Søgeflet \\
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   var searchContainer = document.getElementById("searchContainer");
-//   var searchIcon = document.getElementById("sog_img");
-
-//   document.addEventListener("click", function (event) {
-//     if (
-//       searchContainer.classList.contains("active") &&
-//       event.target !== searchIcon &&
-//       !searchContainer.contains(event.target) &&
-//       event.target !== document.getElementById("searchInput")
-//     ) {
-//       toggleSearch();
-//     }
-//   });
-
-//   searchIcon.addEventListener("click", function (event) {
-//     event.stopPropagation();
-//     toggleSearch();
-//   });
-
-// Tilføj event listener til søgeknappen
-// document
-//   .getElementById("sog_img")
-//   .addEventListener("click", function (event) {
-//     event.preventDefault(); // Forhindrer standardformularindsendelse
-//     search();
-//   });
-// });
-
-function toggleSearch() {
-  // var searchContainer = document.getElementById("searchContainer");
-  // searchContainer.classList.toggle("active");
-}
-
 function search() {
   var input = document.getElementById("searchInput").value.toLowerCase();
   var menuItems = document.querySelectorAll("#menu li a");

@@ -178,6 +178,7 @@ a {
 
   .nav-menu.active {
     left: 0;
+    z-index: 2;
   }
 
   .nav-menu li a {
