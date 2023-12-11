@@ -39,6 +39,7 @@ h4 {
 
 iframe {
   width: 100%;
+  padding-bottom: 40px;
 }
 
 .container {
@@ -47,6 +48,7 @@ iframe {
   align-items: center;
   justify-self: center;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .grid_1_1_1_1 {
