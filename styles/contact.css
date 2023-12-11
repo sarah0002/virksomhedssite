@@ -5,6 +5,15 @@ h1 {
   font-size: 40px;
 }
 
+h2 {
+  padding: 20px;
+}
+
+.contact_tekst {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
 p {
   line-height: 38px;
   padding: 10px;
