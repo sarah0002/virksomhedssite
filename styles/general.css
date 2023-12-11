@@ -59,7 +59,7 @@ footer img {
   border-radius: 10px;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 1130px) {
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
