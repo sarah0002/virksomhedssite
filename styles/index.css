@@ -87,26 +87,33 @@ h2 {
   }
 
   #baggrundsfarve {
-    padding-right: 30px;
+    padding-right: 10px;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 60px;
   }
 
   #baggrundsfarve p {
     padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 30px;
+    padding-left: 120px;
+    font-size: 17px;
   }
 
   #baggrundsfarve h3 {
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-left: 110px;
   }
 
   video {
-    height: auto;
+    max-height: 100%;
     width: 100%;
     background-color: white;
     padding: 25px;
     border-radius: 10px;
+  }
+
+  .short_video {
+    max-width: 500px;
+    justify-self: end;
+    padding-right: 50px;
   }
 }
