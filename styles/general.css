@@ -100,7 +100,21 @@ footer img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 70px;
+    font-size: 18px;
+    padding-top: 2px;
+  }
+
+  .nav-menu .active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    font-size: 18px;
+    padding-top: 2px;
+    background-color: #cfcbe5;
+    padding: 2px 6px;
+    border-radius: 5px;
   }
 }
 
