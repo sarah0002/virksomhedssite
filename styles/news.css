@@ -1,6 +1,8 @@
 h1 {
   text-align: center;
-  padding-bottom: 25px;
+  padding: 10px;
+  padding-top: 80px;
+  font-size: 40px;
 }
 
 .grid_1_1 img {

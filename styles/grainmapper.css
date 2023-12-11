@@ -48,7 +48,9 @@ li {
 
 h1 {
   text-align: center;
-  padding-bottom: 20px;
+  padding: 10px;
+  padding-top: 80px;
+  font-size: 40px;
 }
 
 .grid_1_1 {

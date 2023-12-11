@@ -43,13 +43,9 @@
 
 h1 {
   text-align: center;
-}
-
-.tekst h2,
-h3,
-p,
-ul {
-  padding-bottom: 15px;
+  padding: 10px;
+  padding-top: 80px;
+  font-size: 40px;
 }
 
 .tekst h2,
