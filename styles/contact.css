@@ -61,10 +61,6 @@ iframe {
   gap: 50px;
   padding-bottom: 80px;
 }
-* {
-  transform: all 0.2s linear;
-  text-transform: capitalize;
-}
 
 .overskrift {
   text-align: left;
